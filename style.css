@@ -1,0 +1,57 @@
+.navbar {
+    margin-bottom: 0;
+    background-color: #001a33;
+}
+
+img {
+    width: 50%;
+}
+
+hr {
+    border: 1px solid black;
+    width: 60px;
+    margin-top: 14px;
+}
+
+i {
+    font-size: 30px;
+}
+
+.jumbotron {
+    background-color: lightseagreen;
+}
+
+.line {
+  width: 80px;
+  height: 0;
+  border: 2px solid white;
+  margin-bottom: 11px;
+  display:inline-block;
+}
+
+.white {
+    color: white;
+}
+
+#color-white {
+    color: white;
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .navbar-right {
+        display: none;
+    }
+    .navbar-collapse {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    img {
+        width: 20%;
+    }
+
+    .whitelg li{
+        color: none;
+    }
+}
