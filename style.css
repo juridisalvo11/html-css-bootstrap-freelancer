@@ -4,7 +4,7 @@
 }
 
 img {
-    width: 50%;
+    width: 25%;
 }
 
 hr {
@@ -15,6 +15,14 @@ hr {
 
 i {
     font-size: 30px;
+}
+
+#bianco>li>a {
+    color: white;
+}
+
+#colore-bianco {
+    color: white;
 }
 
 .jumbotron {
@@ -41,8 +49,12 @@ i {
     .navbar-right {
         display: none;
     }
-    .navbar-collapse {
+    .navbar-toggle {
         display: block;
+    }
+
+    img {
+        width: 20%;
     }
 }
 
