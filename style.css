@@ -4,6 +4,10 @@
     padding: 10px;
 }
 
+.jumbotron {
+    padding-top: 150px;
+}
+
 .jumbotron img {
     height: 200px;
 }
@@ -24,7 +28,7 @@ i {
 }
 
 .jumbotron {
-    background-color: lightseagreen;
+    background-color: #1abc9c;
     color: white;
     margin-bottom: 0;
 }
@@ -33,12 +37,23 @@ i {
     font-weight: bold;
 }
 
+.white-star-padding {
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.blue-star-padding {
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
 .line {
   width: 80px;
   height: 0;
   border: 2px solid white;
   margin-bottom: 11px;
   display:inline-block;
+
 }
 
 .star-top-bottom {
@@ -46,13 +61,17 @@ i {
     padding-bottom: 50px;
 }
 
-.portfolio {
+.text-blue, .text-white {
     color: #2c3e50;
     font-weight: bold;
     font-size: 50px;
 }
 
-#star {
+.text-white {
+    color:white;
+}
+
+.star {
     color: #2c3e50;
 }
 
@@ -65,11 +84,7 @@ i {
     background-size: contain;
 }
 
-.img-higher {
-    margin-top: 30px;
-}
-
-.img-lower {
+.img-margin {
     margin-top: 30px;
 }
 
@@ -83,16 +98,28 @@ i {
     background-color: #1abc9c;
 }
 
+.color-white {
+    border: 2px solid white;
+}
+
+#star-white {
+    color: white;
+}
+
 .text-about {
     font-size: 18px;
 }
 
+.free-download {
+    padding-top: 30px;
+}
+
 .btn {
     border: 1px solid white;
-    width: 80%;
     height: 60px;
     background-color: #1abc9c;
-    color: white
+    color: white;
+    border-radius: 10px;
 }
 
 .btn:hover {
@@ -115,6 +142,9 @@ i {
 .form-control {
     border: 0;
     height: 70px;
+    font-size: 25px;
+    color: #495057;
+    border-bottom: 1px solid #e9ecef;
 }
 
 .message {
@@ -122,11 +152,18 @@ i {
 }
 
 #btn-submit {
-    width: 15%;
-    height: 50px;
+    height: 60px;
     float:left;
     background-color: #1abc9c;
     color:white;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#btn-submit:hover {
+    background-color: #159a80;
+    border-color: #148f77;
 }
 
 footer {
@@ -144,8 +181,8 @@ footer .h3 {
     border: 1px solid black
 }
 
-.location {
-    padding: 0 30px;
+.padding-bottom {
+    padding-bottom: 50px;
 }
 
 .location p:last-child, .about-freelancer p:last-child {
@@ -153,14 +190,28 @@ footer .h3 {
     font-weight: 300;
 }
 
-
 .btn-social {
     border: 2px solid white;
     background-color: #2c3e50;
-    padding: 4%;
+    padding: 10px;
     border-radius: 50%;
     width: 50px;
     margin-right: 5px;
+}
+
+.btn-social:hover {
+    background-color: white;
+    color: #2c3e50;
+}
+
+.green-link {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.green-link:hover {
+    color: #117964;
+    text-decoration: underline;
 }
 
 .footer-lower {
