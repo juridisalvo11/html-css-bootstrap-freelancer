@@ -4,13 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Bootstrap Freelance</title>
+        <script src="https://kit.fontawesome.com/3e39139afa.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="12bool.css">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-default">
+            <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="container">
                      <!-- Brand and toggle get grouped for better mobile display -->
                       <div class="navbar-header">
@@ -51,7 +52,7 @@
                 <p class="text-capitalize white">Graphic Artist - web designer - illustrator</p>
             </section>
         </div>
-        <section class="text-center images">
+        <section class="text-center star-top-bottom">
             <div class="container">
                 <div class="portfolio h2 text-uppercase">Portfolio</div>
                 <div class="">
@@ -97,9 +98,88 @@
                 </div>
             </div>
         </section>
-
-        <footer>
-
+        <section class="text-center star-top-bottom bg-blue">
+            <div class="container">
+                <div class="portfolio h2 text-uppercase">about</div>
+                <div class="">
+                    <div class="line color-blue"></div>
+                    <div id="star" style="display:inline-block;">
+                        <i class="glyphicon glyphicon-star white col-xs-2"></i>
+                    </div>
+                    <div class="line color-blue"></div>
+                </div>
+                <div class="text-about col-lg-4 col-lg-offset-2">
+                    Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
+                </div>
+                <div class="text-about col-lg-4">
+                    You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
+                </div>
+                <div class="free-download col-lg-4 col-lg-offset-4">
+                    <button class="btn" type="button" name="button">
+                        <i class="fas fa-download"></i>Free Download</button>
+                </div>
+            </div>
+        </section>
+        <section class="contact-me text-center star-top-bottom">
+            <div class="container">
+                <div class="portfolio h2 text-uppercase">Contact me</div>
+                <div class="">
+                    <div class="line color-blue"></div>
+                    <div id="star" style="display:inline-block;">
+                        <i class="glyphicon glyphicon-star white col-xs-2"></i>
+                    </div>
+                    <div class="line color-blue"></div>
+                </div>
+                <div class="">
+                    <form class="col-lg-7 col-lg-offset-3">
+                      <div class="form-group">
+                        <input type="name" class="form-control" id="exampleInputEmail1" placeholder="Name">
+                      </div>
+                      <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email Address">
+                      </div>
+                      <div class="form-group">
+                        <input type="phone" class="form-control" id="exampleInputPassword1" placeholder="Phone Number">
+                      </div>
+                      <div class="form-group">
+                        <input type="message" class="form-control message" id="exampleInputPassword1" placeholder="message">
+                      </div>
+                      <button id="btn-submit" type="submit" class="btn btn-default">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="text-center">
+            <div class="container">
+                <div class="location col-lg-4">
+                    <p class="h3 text-uppercase">Location</p>
+                    <p>2215 John Daniel Drive Clark, MO 65243</p>
+                </div>
+                <div class="col-lg-4">
+                    <p class="h3 text-uppercase">AROUND THE WEB</p>
+                    <div class="social">
+                        <button class="btn-social" type="button" name="button">
+                            <i class="fa fa-facebook" style="font-size:24px"></i>
+                        </button>
+                        <button class="btn-social" type="button" name="button">
+                            <i class="fa fa-twitter" style="font-size:24px"></i>
+                        </button>
+                        <button class="btn-social" type="button" name="button">
+                            <i class="fa fa-linkedin" style="font-size:24px"></i>
+                        </button>
+                        <button class="btn-social" type="button" name="button">
+                            <i class="fa fa-dribbble" style="font-size:24px"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="about-freelancer col-lg-4">
+                    <p class="h3 text-uppercase">ABOUT FREELANCER</p>
+                    <p>Freelance is a free to use, MIT licensed Bootstrap theme created by<span>Start Bootstrap.</span></p>
+                </div>
+            </div>
+            <div class="footer-lower col-lg-12">
+                Copyright © Your Website 2019
+            </div>
         </footer>
     </body>
 </html>
