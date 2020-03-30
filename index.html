@@ -5,16 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Bootstrap Freelance</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="12bool.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-            <div class="container">
-                <nav class="navbar navbar-default">
-                    <div class="row text-uppercase">
-                  <!-- Brand and toggle get grouped for better mobile display -->
-                      <div class="navbar-header2 col-xs-12 col-md-12 col-lg-4 col-lg-offset-2">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                     <!-- Brand and toggle get grouped for better mobile display -->
+                      <div class="navbar-header">
                             <button type="button" class="navbar-toggle collapsed" id="colore-bianco" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                               <span class="sr-only">Toggle navigation</span>
                               <span class="icon-bar"></span>
@@ -22,38 +21,83 @@
                               <span class="icon-bar"></span>
                             </button>
                             <a class="navbar-brand" href="#">
-                                <span class="strong white">Start Bootstrap</span>
+                                <span>Start Bootstrap</span>
                             </a>
                       </div>
 
                       <!-- Collect the nav links, forms, and other content for toggling -->
-                      <div class="collapse navbar-collapse col-lg-4" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right" id="bianco">
-                              <li class="white"><a href="#">Portfolio</a></li>
-                              <li class="white"><a href="#">About</a></li>
-                              <li class="white"><a href="#">Contact</a></li>
+                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                              <li><a href="#">Portfolio</a></li>
+                              <li><a href="#">About</a></li>
+                              <li><a href="#">Contact</a></li>
                         </ul>
                       </div><!-- /.navbar-collapse -->
-                  </div>
-                </nav>
-            </div>
+                </div>
+            </nav>
+
         </header>
-        <section class="container">
-            <div class="row">
-                    <div class="jumbotron text-center col-xs-12 col-lg-12">
-                        <img src="img/avatar.svg" alt="" class="">
-                        <h1 class="text-uppercase" id="color-white">Start Bootstrap</h1>
-                        <div class="">
-                            <div class="line"></div>
-                            <div style="display:inline-block;">
-                                <i class="glyphicon glyphicon-star white col-xs-2"></i>
-                            </div>
-                            <div class="line"></div>
+        <div class="jumbotron text-center">
+            <section class="container">
+                <img src="img/avatar.svg" alt="" class="">
+                <h1 class="text-uppercase">Start Bootstrap</h1>
+                <div class="">
+                    <div class="line"></div>
+                    <div style="display:inline-block;">
+                        <i class="glyphicon glyphicon-star white col-xs-2"></i>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <p class="text-capitalize white">Graphic Artist - web designer - illustrator</p>
+            </section>
+        </div>
+        <section class="text-center images">
+            <div class="container">
+                <div class="portfolio h2 text-uppercase">Portfolio</div>
+                <div class="">
+                    <div class="line color-blue"></div>
+                    <div id="star" style="display:inline-block;">
+                        <i class="glyphicon glyphicon-star white col-xs-2"></i>
+                    </div>
+                    <div class="line color-blue"></div>
+                </div>
+                <div class="img-higher col-lg-12">
+                    <div class= " box col-lg-4">
+                        <div class="immagine">
+                            <img class="image" src="img/cabin.png" alt="">
                         </div>
-                        <p class="text-capitalize white">Graphic Artist - web designer - illustrator</p>
+                    </div>
+                    <div class= "box col-lg-4">
+                        <div class="immagine">
+                            <img class="image" src="img/cake.png" alt="">
+                        </div>
+                    </div>
+                    <div class= "box col-lg-4">
+                        <div class="immagine">
+                            <img class="image" src="img/circus.png" alt="">
+                        </div>
                     </div>
                 </div>
+                <div class="img-lower col-lg-12">
+                    <div class= "box col-lg-4">
+                        <div class="immagine">
+                            <img class="image" src="img/game.png" alt="">
+                        </div>
+                    </div>
+                    <div class= "box col-lg-4">
+                        <div class="immagine">
+                            <img class="image" src="img/safe.png" alt="">
+                        </div>
+                    </div>
+                    <div class= "box col-lg-4">
+                        <div class="immagine">
+                            <img class="image" src="img/submarine.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
         <footer>
 
         </footer>

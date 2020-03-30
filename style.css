@@ -3,30 +3,33 @@
     background-color: #001a33;
 }
 
-img {
-    width: 25%;
-}
-
-hr {
-    border: 1px solid black;
-    width: 60px;
-    margin-top: 14px;
+.jumbotron img {
+    height: 200px;
 }
 
 i {
     font-size: 30px;
 }
 
-#bianco>li>a {
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
     color: white;
+    text-transform: uppercase;
+    font-weight: bold;;
 }
 
-#colore-bianco {
-    color: white;
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+    font-weight: bold;
 }
 
 .jumbotron {
     background-color: lightseagreen;
+    color: white;
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    font-weight: bold;
 }
 
 .line {
@@ -37,33 +40,40 @@ i {
   display:inline-block;
 }
 
-.white {
-    color: white;
+.images {
+    padding-top: 100px;
 }
 
-#color-white {
-    color: white;
+.portfolio {
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 50px;
 }
 
-@media all and (min-width: 768px) and (max-width: 991px) {
-    .navbar-right {
-        display: none;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-
-    img {
-        width: 20%;
-    }
+#star {
+    color: #2c3e50;
 }
 
-@media (min-width: 992px) {
-    img {
-        width: 20%;
-    }
+.color-blue {
+    border: 2px solid #2c3e50;
+}
 
-    .whitelg li{
-        color: none;
-    }
+.sfondo {
+    background-image: url(img/cabin.png);
+    background-size: contain;
+}
+
+.img-higher {
+    margin-top: 30px;
+}
+
+.img-lower {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.image {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
 }
